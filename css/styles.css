@@ -19,12 +19,6 @@ ul{
   margin-bottom: 0;
   list-style-type: none;
 }
-/* button {
-  cursor: pointer;
-} */
-/* address { 
-  font-style: normal;
- } */
 
 img {
   display: block;
@@ -50,9 +44,9 @@ img {
 }
 
 .header-nav {
- display: flex;
- align-items: center;
- /* padding-top: 24px;
+display: flex;
+align-items: center;
+/* padding-top: 24px;
  padding-bottom: 24px; */
 }
 .header-logo {
@@ -86,8 +80,7 @@ img {
 .header-list {
   display: flex;
   gap: 40px;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
+
 }
 .header-link:hover, .header-link:focus {
   color: #404bbf
@@ -311,7 +304,6 @@ img {
 }
 
 .footer-text {
-  /* font-family: var(--font-family); */;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
