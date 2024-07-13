@@ -116,10 +116,20 @@ align-items: center;
 
 .hero {
   background-color: #2E2F42;
+  background-image: linear-gradient(
+    to bottom, 
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7) 
+    ),
+    url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1440px;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 188px;
   padding-bottom: 188px;
-  /* padding: 188px 472px; */
-
 }
 .hero-title {
   max-width: 496px;
